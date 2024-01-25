@@ -28,12 +28,11 @@ def load_data(data_path):
     return data
 
 
-
 train_data_path = "train_data.csv"
 classes = ['positive', 'negative', 'neutral']
 nb_classifier = NaiveBayesClassifier(classes)
 nb_classifier.train(load_data(train_data_path))
 
-test_string = "I love playing football"
+test_string = "I don't love playing football"
 
 print(nb_classifier.classify(preprocess(test_string)))
