@@ -1,1 +1,1 @@
-This the ML project for the AI lesson.
+This is the ML project for the AI lesson.
