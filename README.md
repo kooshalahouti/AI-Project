@@ -1,1 +1,1 @@
-This is the ML project for the AI lesson.
+A Naive Bayes project focused on machine learning.
